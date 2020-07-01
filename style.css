@@ -6,7 +6,7 @@ body{
     width: 40%;
     float: left;
     margin-top: 10%;
-    padding-left: 15%;
+    padding-left: 12%;
 }
 .header-img{
     width: 40%;
@@ -18,12 +18,12 @@ body{
 }
 #name-hl{
     color: #ec4c7a;
-    font-size: 50px;
+    font-size: 36px;
     font-weight: bold;
-    line-height: 4px;
+    line-height: 0.5;
 }
 h2{
-    font-size: 40px;
+    font-size: 30px;
     color: #202428;
 }
 .txt-color{
@@ -31,10 +31,20 @@ h2{
     padding-bottom: 15px;
     line-height: 20px;
 }
-.link-btn{
+a{
     text-decoration: none;
+    color: #fff;
+}
+.link-btn{
     padding: 10px 20px;
     background-image: linear-gradient(180deg,#ec4F91,#ec4C78
+    );
+    color: #fff;
+    border-radius: 5px;
+}
+.link-btn:hover{
+    padding: 10px 20px;
+    background-image: linear-gradient(180deg,#a11e41,#e22674
     );
     color: #fff;
     border-radius: 5px;
@@ -51,7 +61,8 @@ section{
 }
 .bio-img{
     width: 40%;
-	padding-left: 5%;
+    padding-left: 8%;
+    margin-top: 5%;
 	float: left;
 }
 .bio-img img{
@@ -59,7 +70,7 @@ section{
 }
 .bio-text{
     width: 40%;
-    padding-left: 10%;
+    padding-left: 5%;
     margin-top: 10%;
 	float: left;
 }
@@ -110,7 +121,7 @@ section{
     color: #868484;
     padding-top: 10px;
 }
-.mail{
+.mail-box{
     color: #fff;
 	text-align: center;
     padding: 15px;
@@ -120,5 +131,5 @@ section{
 }
 .copyright{
     text-align: center;
-    color: #707070;
+    color: #474646;
   }
